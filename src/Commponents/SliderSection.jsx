@@ -47,12 +47,20 @@ const SliderSection = () => {
       </div>
     </Slider>
     <div style={{ textAlign: "center" }}>
-        <button className="button text-[28px] bg-white rounded-full p-2 absolute top-[50%] left-5" onClick={previous}>
+        <button className="button text-[28px] bg-white rounded-full p-2 absolute top-[40%] left-5" onClick={previous}>
           <GoArrowLeft />
         </button>
-        <button className="button text-[28px] bg-white rounded-full p-2 absolute top-[50%] right-5" onClick={next}>
+        <button className="button text-[28px] bg-white rounded-full p-2 absolute top-[40%] right-5" onClick={next}>
           <GoArrowRight />
         </button>
+      </div>
+      <div className="flex items-center pt-4">
+        <div className="w-6/12">
+        <h3 className='text-[62px] font-Inter font-semibold'>Simply Unique <span className='text-[#6C7275]'> / </span>  Simply Better <span className='text-[#6C7275]'>.</span></h3>
+        </div>
+        <div className="w-4/12">
+          <p className='font-Inter text-[#6C7275]'><span className='font-bold text-black'>3legant</span> is a gift & decorations store based in HCMC, Vietnam. Est since 2019. </p>
+        </div>
       </div>
 
       </Container>
